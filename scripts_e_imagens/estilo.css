@@ -1,0 +1,82 @@
+h1, h2, p, li, a{
+    font-family: 'Roboto', sans-serif;
+}
+
+#fundo1{
+    position: relative;
+    width: 1200px;
+    height: 700px; 
+    top: 10px;
+    left: 50px;
+    background-color: darkorange;
+    opacity: 0.9;
+
+}
+
+#fundo2{
+    position: relative;
+    width: 300px;
+    height: 300px; 
+    top: 50px;
+    left: 100px;
+}
+
+.txt_fundo2{
+    text-align: justify;
+    color: rgb(255, 255, 255);
+}
+
+#fundo3{
+    position: relative;
+    width: 300px;
+    height: 300px; 
+    top: 100px;
+    left: 100px;
+    opacity: 1;
+}
+#fundo4{
+    position: relative;
+    width: 350px;
+    height: 650px; 
+    top: -550px;
+    left: 800px;
+    opacity: 1;
+    background-color: crimson;
+}
+
+.txt_fundo4{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.txt_form{
+    color: rgb(255, 255, 255);
+}
+
+#capa{
+    position: relative;
+    width: 200px;
+    height: 250px; 
+    top: 40px;
+    left: 140px;
+}
+
+#titulo{
+    text-align: center;
+    font-size: 4rem;
+}
+
+.listas{
+    color: red; 
+}
+
+#foto{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    background-image: url("fundo.jpg");
+}

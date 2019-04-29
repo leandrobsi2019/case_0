@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Lançamento Tom Clancy's - The Division 2 - Plataforma PS4</title>
+		<link rel="stylesheet" href="scripts_e_imagens\estilo.css">
+		<script type="text/javascript" src="scripts_e_imagens\validacao.js"></script>
+	</head>
+
+	<body>
+		
+
+		<div id="fundo1">
+				
+				<div id="fundo2">
+					<h1 class="txt_fundo2"> Tom Clancy's - The Division 2  </h1>
+					<p	class="txt_fundo2"> Washington D.C. está à beira de um colapso. A anarquia e a instabilidade ameaçam nossa sociedade, e os rumores de um golpe de Estado na capital só amplificam o caos. Todos os agentes ativos da Division vão precisar salvar a cidade, antes que seja tarde demais.</p>
+				</div>
+					
+				<img id="capa" src="scripts_e_imagens\capa_jogo.jpg">
+			
+				<div id="fundo4">
+						<h2 class="txt_fundo4"> Faça sua reserva de Pré-Venda Aqui!</h2>
+						<p	class="txt_fundo4"> Preencha todos os campos para fazer sua reserva!</p>
+
+						<form name="frm_venda" method="POST" action="venda.html" onsubmit="return ValidaSoma();">
+							<p class="txt_form">Nome*</p> <input type="text" name="nome" id="nome"/>
+							<p class="txt_form">E-mail*</p> <input type="text" name="email" id="email"  />
+							
+							<p class="txt_form">Qual é o mês do seu aniversário?* </p>
+							
+								<select name="mes" id="mes">
+									<option value="0">Selecione</option>
+									<option value="1">Janeiro</option>
+									<option value="2">Fevereiro</option>
+									<option value="3">Março</option>
+									<option value="4">Abril</option>
+									<option value="5">Maio</option>
+									<option value="6">Junho</option>
+									<option value="7">Julho</option>
+									<option value="8">Agosto</option>
+									<option value="9">Setembro</option>
+									<option value="10">Outubro</option>
+									<option value="11">Novembro</option>
+									<option value="12">Dezembro</option>
+								
+
+								</select> 
+
+								<p class="txt_form">Qual console você possui?* </p>
+								<p class="txt_form"><input type="checkbox" name="consoles" id="ps4" value="ps4" />Playstation 4 </p>
+								<p class="txt_form"><input type="checkbox" name="consoles" id="xbox" value="xbox" /> Xbox One </p>
+								<p class="txt_form"><input type="checkbox" name="consoles" id="pc" value="pc" /> Computador - PC </p>
+								<p class="txt_form"><input type="checkbox" name="consoles" id="wii" value="wii" /> Nintendo Wii </p>
+						
+								<p class="txt_form"> 2 + 6 = ? <br /> <input type="text" name="captcha" id="captcha" /> </p>
+								
+								<br /> <input type="submit" name="enviar" value="Enviar a Reserva" /><br /><br />
+
+						</form>
+				</div>			
+		
+				
+			
+			</div>
+
+</body>
